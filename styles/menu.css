@@ -34,20 +34,22 @@
     height: 50px;
     margin-left: 130px;
 }
-#nav > div {
+#order {
     width: 250px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FF3714;
+}
+#order > a {
+    color: white;
     font-size: 24px;
     font-family: myFont;
     font-weight: 100;
-    color: white;
-    background-color: #FF3714;
-    
+    text-decoration: none;
 }
-#nav > div:hover {
+#order:hover {
     background-color: blue;
     transition: 500ms;
 }

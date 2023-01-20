@@ -1,0 +1,102 @@
+@font-face {
+    font-family: myFont;
+    src: url(./luchador-oblique.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+#nav > a {
+    font-family: myFont;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+#heading {
+    font-family: myFont;
+    font-size: 50px;
+    font-weight: 100;
+    color: #FF3714;
+    text-align: center;
+    margin: 50px 0px;
+}
+#cart-box {
+    display: flex;
+}
+#cart-box > div {
+    width: 50%;
+}
+#cart-box > div > img {
+    width: 100%;
+}
+#bottom {
+    background-color: lightgray;
+    height: 200px;
+}
+#apps {
+    display: flex;
+    justify-content:center;
+}
+#apps > img {
+    width: 100px;
+    margin: 50px 0px;
+}
+#extra {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#extra > a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 1000;
+}
+#cart {
+    height: 500px;
+    overflow:scroll;
+}
+#cart > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cart > div > img {
+    width: 100px;
+}
+#cart > div > h2 {
+    width: 200px;
+}
+#cart > div > button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: myFont;
+    color: white;
+    background-color: blue;
+}
+#cart > div > button:hover {
+    background-color: #FF3714;
+    transition: 500ms;
+}
+#total-box {
+    display: flex;
+    justify-content: center;
+}
+#total-box > h1 {
+    font-family: myFont;
+    font-weight:100 ;
+}
