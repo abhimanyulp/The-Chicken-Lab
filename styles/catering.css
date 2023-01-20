@@ -34,20 +34,22 @@
     height: 50px;
     margin-left: 130px;
 }
-#nav > div {
+#order {
     width: 250px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FF3714;
+}
+#order > a {
+    color: white;
     font-size: 24px;
     font-family: myFont;
     font-weight: 100;
-    color: white;
-    background-color: #FF3714;
-    
+    text-decoration: none;
 }
-#nav > div:hover {
+#order:hover {
     background-color: blue;
     transition: 500ms;
 }
@@ -186,21 +188,21 @@
     text-align: center;
     margin: 50px 0px;
 }
-#menu {
+#cat-menu {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     padding: 0px 50px;
 }
-#menu > div {
+#cat-menu > div {
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-#menu > div > img {
+#cat-menu > div > img {
     width: 100%;
     border: 5px solid white;
 }
-#menu > div > button {
+#cat-menu > div > button {
     font-size: 15px;
     font-family: myFont;
     border: none;
@@ -211,6 +213,6 @@
     border-radius: 25px;
     margin: 20px;
 }
-#menu > div > button:hover {
+#cat-menu > div > button:hover {
     background-color: blue;
 }
