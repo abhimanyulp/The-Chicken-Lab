@@ -158,28 +158,44 @@
     color: #FF3714;
 }
 #div-app > div > p{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0px;
 }
 #div-app > div > button{
-    font-size: 20px;
-    font-family: myFont;
+    
     border: none;
     width: 200px;
     height: 50px;
-    color: white;
     background-color: blue;
     border-radius: 25px;
     margin: 20px;
+}
+#div-app > div > button:hover{
+    transition: 500ms;
+    background-color:#FF3714;
+
+}
+#div-app > div > button > a {
+    text-decoration: none;
+    font-family: myFont;
+    color: white;
+    font-size: 20px;
 }
 #div-app > img {
     width: 25%;
 }
 #div-bottom {
-    height: 500px;
+    height: 400px;
     background-color: blue;
 }
-#div-bottom > div {
+#div-bottom > div:first-child {
     height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#div-bottom > div:last-child{
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -1,0 +1,223 @@
+@font-face {
+    font-family: myFont;
+    src: url(./luchador-oblique.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+#btn-open {
+    width: 33px;
+    height: 33px;
+    margin-left: 30px;
+}
+#btn-close {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 31px;
+}
+#logo {
+    height: 50px;
+    margin-left: 130px;
+}
+#order {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF3714;
+}
+#order > a {
+    color: white;
+    font-size: 24px;
+    font-family: myFont;
+    font-weight: 100;
+    text-decoration: none;
+}
+#order:hover {
+    background-color: blue;
+    transition: 500ms;
+}
+#sidebar {
+    display: none;
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 150px;
+    z-index: 1;
+}
+#sidebar a {
+    text-decoration: none;
+    font-family: myFont;
+    font-size: 40px;
+    font-weight: 100;
+    color: #FF3714;
+}
+#sidebar a:hover {
+    text-decoration: underline;
+}
+#div {
+    margin-bottom: -4px;
+}
+.images {
+    width: 100%;
+    margin: 0;
+}
+
+.divs-inner {
+    position: absolute;
+    text-align: center;
+    width: 37%;
+    margin-top: -35%;
+    margin-left:  30%;
+}
+
+.divs-inner > h1 {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: myFont;
+    color: #FF3714;
+    margin: 20px;
+}
+.divs-inner > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+.divs-inner > button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 20px;
+}
+.divs-inner > button > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: myFont;
+    color: white;
+}
+.divs-inner > button:hover {
+    background-color: #FF3714;
+    transition: 500ms;
+}
+#div-bottom {
+    height: 400px;
+    background-color: blue;
+}
+#div-bottom > div:first-child {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#div-bottom > div:last-child{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bottom-left {
+    width: 300px;
+    color: white;
+}
+#bottom-left a {
+    color: white;
+    text-decoration: none;
+}
+#bottom-left a:hover {
+    text-decoration: underline;
+}
+#bottom-right {
+    width: 350px;
+    color: white;
+}
+#bottom-right > h5 {
+    font-size: 20px;
+    font-family: myFont;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+#bottom-right > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#bottom-right > a {
+    color: white;
+}
+#appstore {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin-top: 20px;
+
+}
+#appstore > img {
+    width: 80px;
+}
+#social {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+#social > img {
+    width: 20px;
+}
+#extra {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+#extra > a {
+    font-size: 13px;
+    color: white;
+}
+#header > img {
+    width: 100%;
+}
+#header > div {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 500px;
+}
+#header > div > h1 {
+    font-family: myFont;
+    font-size: 80px;
+    color: white;
+}
+#qoute {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#qoute > h1 {
+    font-family: myFont;
+    font-size: 45px;
+    color: #FF3714;
+    margin: 30px;
+}
+#qoute > h3 {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 60px;
+    margin: 40px;
+}

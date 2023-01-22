@@ -29,13 +29,13 @@ if(cartData==null){
     cartData=[];
 }
 
-let menuData = [{image:"./media/2PieceMeal.png", name:"2 Piece Meal", price:"69"},
-{image:"./media/3PieceMeal.png", name:"3 Piece Meal", price:"69"},
-{image:"./media/4PieceMeal.png", name:"4 Piece Meal", price:"69"},
-{image:"./media/ChickenBreast.png", name:"Fire-Grilled Chicken Breast", price:"69"},
-{image:"./media/ChickenWing.png", name:"Fire-Grilled Chicken Wing", price:"69"},
-{image:"./media/ChickenThigh.png", name:"Fire-Grilled Chicken Thigh", price:"69"},
-{image:"./media/ChickenLeg.png", name:"Fire-Grilled Chicken Leg", price:"69"}]
+let menuData = [{image:"./media/2PieceMeal.png", name:"2 Piece Meal", price:"20"},
+{image:"./media/3PieceMeal.png", name:"3 Piece Meal", price:"25"},
+{image:"./media/4PieceMeal.png", name:"4 Piece Meal", price:"30"},
+{image:"./media/ChickenBreast.png", name:"Fire-Grilled Chicken Breast", price:"15"},
+{image:"./media/ChickenWing.png", name:"Fire-Grilled Chicken Wing", price:"10"},
+{image:"./media/ChickenThigh.png", name:"Fire-Grilled Chicken Thigh", price:"8"},
+{image:"./media/ChickenLeg.png", name:"Fire-Grilled Chicken Leg", price:"5"}]
 
 
 Display(menuData);
