@@ -28,11 +28,11 @@ if(cartData==null){
     cartData=[];
 }
 
-let menuData = [{image:"./media/Catering24Piece.png", name:"24 Piece Meal", price:"69"},
-{image:"./media/CateringChickenMeals_48PcMeal.png", name:"48 Piece Meal", price:"69"},
-{image:"./media/Catering24PieceMixedChickenTortillas.png", name:"24 Piece Chicken & Tortillas", price:"69"},
-{image:"./media/3CourseCatering_24PC.png", name:"3-Course 24 Piece Meal", price:"69"},
-{image:"./media/Catering48 PieceChicken.png", name:"3-Course 48 Piece Meal", price:"69"}];
+let menuData = [{image:"./media/Catering24Piece.png", name:"24 Piece Meal", price:"75"},
+{image:"./media/CateringChickenMeals_48PcMeal.png", name:"48 Piece Meal", price:"120"},
+{image:"./media/Catering24PieceMixedChickenTortillas.png", name:"24 Piece Chicken & Tortillas", price:"85"},
+{image:"./media/3CourseCatering_24PC.png", name:"3-Course 24 Piece Meal", price:"90"},
+{image:"./media/Catering48 PieceChicken.png", name:"3-Course 48 Piece Meal", price:"140"}];
 
 
 Display(menuData);

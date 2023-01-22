@@ -11,7 +11,18 @@
     <div id="nav">
         <a href="./index.html">Home</a>
         <img src="./media/logo.png" alt="error">
-        <a href="#">Sign In</a>
+        <div id="nav-right">
+            <a id="logged"></a>
+            <a id="login-btn" onclick="display_login()" >Sign In</a>
+            <a id="logout-btn" onclick="display_logout()">Sign out</a>
+            <a id="cart-btn" onclick="display_cart()">Cart</a>
+            <a id="cart-btn2" onclick="display_cart2()">Cart</a>
+        </div>
+        <!-- <a id="logged"></a>
+        <a id="login-btn" onclick="display_login()">Sign In</a>
+        <a id="logout-btn" onclick="display_logout()">Sign out</a>
+        <a id="cart-btn" onclick="display_cart()">Cart</a>
+        <a id="cart-btn2" onclick="display_cart2()">Cart</a> -->
     </div>
     <h1 id="heading">Cart</h1>
     <div id="cart-box">
@@ -21,13 +32,22 @@
             </div>
             <div id="total-box">
                 <h1>Total:<span id="total">0</span>$</h1>
+                <button id="order-now" onclick="ordering()">Order Now</button>
             </div>
         </div>
         
         <div>
             <img src="./media/cart_page_img.png" alt="error">
         </div>
-        
+    </div>
+    <div id="login-box">
+        <!-- Login div -->
+        <h1>Username</h1>
+        <input type="email" name="Username" id="user">
+        <h1>Password</h1>
+        <input type="text" id="pass"> <br>
+        <button onclick="match()" class="login-btn">Sign In</button>
+        <p>New User?  <button onclick="save()" class="login-btn" id="signup-btn">Sign Up</button></p>
     </div>
     <div id="bottom">
         <div id="apps">
@@ -35,9 +55,8 @@
             <img src="./media/google-play.png" alt="error">
         </div>
         <div id="extra">
-            <a href="#">Terms of Use</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Site Map</a>
+            <a href="./extras/terms.html">Terms of Use</a>
+            <a href="./extras/privacy.html">Privacy Policy</a>
             <a>@The Chicken Lab. All Rights Reserved</a>
         </div>
     </div>
