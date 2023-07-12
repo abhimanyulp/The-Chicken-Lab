@@ -2,12 +2,15 @@
     font-family: myFont;
     src: url(./luchador-oblique.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* Navbar */
 #nav {
     width: 100%;
     height: 60px;
@@ -17,207 +20,388 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index:1;
+    z-index: 1;
 }
+
 #btn-open {
     width: 33px;
     height: 33px;
     margin-left: 30px;
 }
+
 #btn-close {
     display: none;
     width: 30px;
     height: 30px;
     margin-left: 31px;
 }
+
 #logo {
     height: 50px;
-    margin-left: 130px;
+    margin-left: 10%;
 }
+
 #order {
-    width: 250px;
+    width: 20%;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FF3714;
 }
-#order > a {
+
+#order>a {
     color: white;
-    font-size: 24px;
+    font-size: 100%;
     font-family: myFont;
     font-weight: 100;
     text-decoration: none;
+    margin: auto;
 }
+
 #order:hover {
     background-color: blue;
     transition: 500ms;
 }
+/* Navbar */
+
+
+
+/* Main Section  */
 #sidebar {
     display: none;
     background-color: white;
-    position:fixed;
+    position: fixed;
     width: 100%;
     height: 100vh;
-    padding: 100px 150px;
+    padding: 10% 10%;
     z-index: 1;
 }
+
 #sidebar a {
     text-decoration: none;
     font-family: myFont;
-    font-size: 40px;
+    font-size: 200%;
     font-weight: 100;
     color: #FF3714;
 }
+
 #sidebar a:hover {
     text-decoration: underline;
 }
-#div {
-    margin-bottom: -4px;
+
+#header>img {
+    width: 100%;
+    height: fit-content;
 }
+
+#header>div>h1 {
+    width: 30%;
+    position: absolute;
+    font-family: myFont;
+    font-size: 80px;
+    color: white;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+#qoute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+#qoute>h1 {
+    font-family: myFont;
+    font-size: 40px;
+    color: #FF3714;
+    margin: 50px;
+}
+
+#qoute>h3 {
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    line-height: 100%;
+    font-size: 40px;
+}
+
+#qoute>p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.divs {
+    position: relative;
+}
+
 .images {
     width: 100%;
-    margin: 0;
 }
 
 .divs-inner {
-    position: absolute;
     text-align: center;
-    width: 37%;
-    margin-top: -35%;
-    margin-left:  30%;
+    width: 40%;
+    top: 16%;
+    left: 32%;
+    position: absolute;
+    margin: auto;
 }
 
-.divs-inner > h1 {
-    font-size: 45px;
+.divs-inner>h1 {
+    font-size: 200%;
     font-weight: 100;
     font-family: myFont;
     color: #FF3714;
-    margin: 20px;
+    margin-top: 10%;
 }
-.divs-inner > p {
+
+.divs-inner>p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
+    font-size: 150%;
+    margin-top: 10%;
 }
-.divs-inner > button {
+
+.divs-inner>button {
     border: none;
-    width: 200px;
-    height: 50px;
+    width: 80%;
+    height: 200%;
+    padding: 10px;
     background-color: blue;
     border-radius: 25px;
-    margin: 20px;
+    margin-top: 10%;
 }
-.divs-inner > button > a {
+
+.divs-inner>button>a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 100%;
     font-family: myFont;
     color: white;
 }
-.divs-inner > button:hover {
+
+
+.divs-inner>button:hover {
     background-color: #FF3714;
     transition: 500ms;
 }
+/* Main Section  */
+
+
+
+/* Footer */
 #div-bottom {
     height: 400px;
     background-color: blue;
 }
-#div-bottom > div:first-child {
+
+#div-bottom>div:first-child {
     height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-#div-bottom > div:last-child{
+
+#div-bottom>div:last-child {
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 #bottom-left {
-    width: 300px;
+    width: 20%;
     color: white;
 }
+
 #bottom-left a {
     color: white;
     text-decoration: none;
 }
+
 #bottom-left a:hover {
     text-decoration: underline;
 }
+
 #bottom-right {
-    width: 350px;
+    width: 40%;
     color: white;
 }
-#bottom-right > h5 {
-    font-size: 20px;
+
+#bottom-right>h5 {
+    font-size: 100%;
     font-family: myFont;
     font-weight: 100;
     margin-bottom: 10px;
 }
-#bottom-right > p {
+
+#bottom-right>p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 20px;
+    line-height: 120%;
     margin-bottom: 20px;
 }
-#bottom-right > a {
+
+#bottom-right>a {
     color: white;
 }
+
 #appstore {
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 50%;
     margin-top: 20px;
 
 }
-#appstore > img {
-    width: 80px;
+
+#appstore>img {
+    width: 50%;
 }
+
 #social {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 15%;
 }
-#social > img {
-    width: 20px;
+
+#social>img {
+    width: 10%;
 }
+
 #extra {
-    width: 600px;
+    width: 30%;
     display: flex;
     justify-content: space-between;
 }
-#extra > a {
+
+#extra>a {
     font-size: 13px;
     color: white;
 }
-#header > img {
-    width: 100%;
+/* Footer */
+
+
+
+/* Media Queries */
+
+/* Tablet */
+@media screen and (max-width: 767px) {
+
+    /* Navbar */
+    #logo {
+        height: 40px;
+    }
+
+    #order>a {
+        font-size: 90%;
+    }
+
+
+    /* Main Section  */
+
+    #header>div>h1 {
+        font-size: 50px;
+    }
+
+    #qoute>h1 {
+        font-size: 40px;
+    }
+
+    #qoute>h3 {
+        font-size: 30px;
+    }
+
+    .divs-inner>h1 {
+        font-size: 150%;
+    }
+
+    .divs-inner>p {
+        font-size: 80%;
+    }
+
+    .divs-inner>button {
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .divs-inner>button>a {
+        font-size: 80%;
+    }
+
+    .divs-inner {
+        width: 40%;
+        top: 14%;
+    }
+
+
+    /* Footer  */
+
+    #bottom-right {
+        width: 60%;
+    }
+
+    #social {
+        width: 25%;
+    }
+
+    #extra {
+        width: 40%;
+    }
+
 }
-#header > div {
-    position: absolute;
-    margin-top: 350px;
-    margin-left: 500px;
+
+
+/* Mobile  */
+@media screen and (max-width: 480px) {
+
+    /* Navbar */
+    #logo {
+        height: 30px;
+    }
+
+    #order>a {
+        font-size: 60%;
+    }
+
+    /* Main Section  */
+
+    #header>div>h1 {
+        font-size: 30px;
+    }
+
+    #qoute>h1 {
+        font-size: 30px;
+    }
+
+    #qoute>h3 {
+        font-size: 20px;
+    }
+
+    .divs-inner>h1 {
+        font-size: 100%;
+    }
+
+    .divs-inner>p {
+        font-size: 60%;
+    }
+
+    .divs-inner>button {
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .divs-inner>button>a {
+        font-size: 60%;
+    }
+
+
+    .divs-inner {
+        width: 37%;
+    }
+
 }
-#header > div > h1 {
-    font-family: myFont;
-    font-size: 80px;
-    color: white;
-}
-#qoute {
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-#qoute > h1 {
-    font-family: myFont;
-    font-size: 45px;
-    color: #FF3714;
-    margin: 30px;
-}
-#qoute > h3 {
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
-    line-height: 60px;
-    margin: 40px;
-}
+/* Media Queries */

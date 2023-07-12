@@ -1,4 +1,4 @@
-//Cathing 
+//Catching
 
 let btnOpen = document.getElementById("btn-open");
 let btnClose = document.getElementById("btn-close");

@@ -2,12 +2,15 @@
     font-family: myFont;
     src: url(./luchador-oblique.ttf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* Navbar */
 #nav {
     width: 100%;
     height: 60px;
@@ -17,178 +20,75 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index:1;
+    z-index: 1;
 }
+
 #btn-open {
     width: 33px;
     height: 33px;
     margin-left: 30px;
 }
+
 #btn-close {
     display: none;
     width: 30px;
     height: 30px;
     margin-left: 31px;
 }
+
 #logo {
     height: 50px;
-    margin-left: 130px;
+    margin-left: 10%;
 }
+
 #order {
-    width: 250px;
+    width: 20%;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FF3714;
 }
-#order > a {
+
+#order>a {
     color: white;
-    font-size: 24px;
+    font-size: 100%;
     font-family: myFont;
     font-weight: 100;
     text-decoration: none;
+    margin: auto;
 }
+
 #order:hover {
     background-color: blue;
     transition: 500ms;
 }
+
+/* Navbar */
+
+/* Main Section  */
 #sidebar {
     display: none;
     background-color: white;
-    position:fixed;
+    position: fixed;
     width: 100%;
     height: 100vh;
-    padding: 100px 150px;
+    padding: 10% 10%;
     z-index: 1;
 }
+
 #sidebar a {
     text-decoration: none;
     font-family: myFont;
-    font-size: 40px;
+    font-size: 200%;
     font-weight: 100;
     color: #FF3714;
 }
+
 #sidebar a:hover {
     text-decoration: underline;
 }
-#div {
-    margin-bottom: -4px;
-}
-.images {
-    width: 100%;
-    margin: 0;
-}
 
-.divs-inner {
-    position: absolute;
-    text-align: center;
-    width: 37%;
-    margin-top: -35%;
-    margin-left:  30%;
-}
-
-.divs-inner > h1 {
-    font-size: 45px;
-    font-weight: 100;
-    font-family: myFont;
-    color: #FF3714;
-    margin: 20px;
-}
-.divs-inner > p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
-}
-.divs-inner > button {
-    border: none;
-    width: 200px;
-    height: 50px;
-    background-color: blue;
-    border-radius: 25px;
-    margin: 20px;
-}
-.divs-inner > button > a {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: myFont;
-    color: white;
-}
-.divs-inner > button:hover {
-    background-color: #FF3714;
-    transition: 500ms;
-}
-#div-bottom {
-    height: 400px;
-    background-color: blue;
-}
-#div-bottom > div:first-child {
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-#div-bottom > div:last-child{
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-#bottom-left {
-    width: 300px;
-    color: white;
-}
-#bottom-left a {
-    color: white;
-    text-decoration: none;
-}
-#bottom-left a:hover {
-    text-decoration: underline;
-}
-#bottom-right {
-    width: 350px;
-    color: white;
-}
-#bottom-right > h5 {
-    font-size: 20px;
-    font-family: myFont;
-    font-weight: 100;
-    margin-bottom: 10px;
-}
-#bottom-right > p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-#bottom-right > a {
-    color: white;
-}
-#appstore {
-    display: flex;
-    justify-content: space-between;
-    width: 170px;
-    margin-top: 20px;
-
-}
-#appstore > img {
-    width: 80px;
-}
-#social {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-}
-#social > img {
-    width: 20px;
-}
-#extra {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
-}
-#extra > a {
-    font-size: 13px;
-    color: white;
-}
 #heading {
     font-family: myFont;
     font-size: 50px;
@@ -197,31 +97,301 @@
     text-align: center;
     margin: 50px 0px;
 }
+
 #cat-menu {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    padding: 0px 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5%;
 }
-#cat-menu > div {
+
+#cat-menu>div {
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
-#cat-menu > div > img {
+
+#cat-menu>div>img {
     width: 100%;
     border: 5px solid white;
 }
-#cat-menu > div > button {
+
+#cat-menu>div>button {
     font-size: 15px;
     font-family: myFont;
     border: none;
-    width: 100px;
+    width: 20%;
     height: 25px;
     color: white;
     background-color: gainsboro;
     border-radius: 25px;
     margin: 20px;
 }
-#cat-menu > div > button:hover {
+
+#cat-menu>div>button:hover {
     background-color: blue;
 }
+
+.divs {
+    position: relative;
+}
+
+.images {
+    width: 100%;
+}
+
+.divs-inner {
+    text-align: center;
+    width: 40%;
+    top: 16%;
+    left: 32%;
+    position: absolute;
+    margin: auto;
+}
+
+.divs-inner>h1 {
+    font-size: 200%;
+    font-weight: 100;
+    font-family: myFont;
+    color: #FF3714;
+    margin-top: 10%;
+}
+
+.divs-inner>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin-top: 10%;
+}
+
+.divs-inner>button {
+    border: none;
+    width: 80%;
+    height: 200%;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 25px;
+    margin-top: 10%;
+}
+
+.divs-inner>button>a {
+    text-decoration: none;
+    font-size: 100%;
+    font-family: myFont;
+    color: white;
+}
+
+
+.divs-inner>button:hover {
+    background-color: #FF3714;
+    transition: 500ms;
+}
+/* Main Section  */
+
+
+
+/* Footer */
+#div-bottom {
+    height: 400px;
+    background-color: blue;
+}
+
+#div-bottom>div:first-child {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div-bottom>div:last-child {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bottom-left {
+    width: 20%;
+    color: white;
+}
+
+#bottom-left a {
+    color: white;
+    text-decoration: none;
+}
+
+#bottom-left a:hover {
+    text-decoration: underline;
+}
+
+#bottom-right {
+    width: 40%;
+    color: white;
+}
+
+#bottom-right>h5 {
+    font-size: 100%;
+    font-family: myFont;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+#bottom-right>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+#bottom-right>a {
+    color: white;
+}
+
+#appstore {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+#appstore>img {
+    width: 50%;
+}
+
+#social {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+#social>img {
+    width: 10%;
+}
+
+#extra {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#extra>a {
+    font-size: 13px;
+    color: white;
+}
+/* Footer */
+
+
+
+/* Media Queries */
+
+/* Tablet */
+@media screen and (max-width: 767px) {
+
+    /* Navbar */
+    #logo {
+        height: 40px;
+    }
+
+    #order>a {
+        font-size: 90%;
+    }
+
+
+    /* Main Section  */
+
+    #heading {
+        font-size: 40px;
+    }
+
+    #cat-menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .divs-inner>h1 {
+        font-size: 150%;
+    }
+
+    .divs-inner>p {
+        font-size: 80%;
+    }
+
+    .divs-inner>button {
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .divs-inner>button>a {
+        font-size: 80%;
+    }
+
+    .divs-inner {
+        text-align: center;
+        width: 40%;
+        top: 14%;
+    }
+
+
+    /* Footer  */
+
+    #bottom-right {
+        width: 60%;
+    }
+
+    #social {
+        width: 25%;
+    }
+
+    #extra {
+        width: 40%;
+    }
+
+}
+
+
+/* Mobile  */
+@media screen and (max-width: 480px) {
+
+    /* Navbar */
+    #logo {
+        height: 30px;
+    }
+
+    #order>a {
+        font-size: 60%;
+    }
+
+    /* Main Section  */
+
+    #heading {
+        font-size: 30px;
+    }
+
+    #cat-menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .divs-inner>h1 {
+        font-size: 100%;
+    }
+
+    .divs-inner>p {
+        font-size: 60%;
+    }
+
+    .divs-inner>button {
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .divs-inner>button>a {
+        font-size: 60%;
+    }
+
+    .divs-inner {
+        text-align: center;
+        width: 37%;
+    }
+
+}
+/* Media Queries */

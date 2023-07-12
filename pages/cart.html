@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="../styles/cart.css">
 </head>
 <body>
+    <!-- Navbar -->
     <div id="nav">
-        <a href="./index.html">Home</a>
-        <img src="./media/logo.png" alt="error">
+        <a href="../index.html">Home</a>
+        <img src="../media/logo.png" alt="error">
         <div id="nav-right">
             <a id="logged"></a>
             <a id="login-btn" onclick="display_login()" >Sign In</a>
@@ -18,12 +19,10 @@
             <a id="cart-btn" onclick="display_cart()">Cart</a>
             <a id="cart-btn2" onclick="display_cart2()">Cart</a>
         </div>
-        <!-- <a id="logged"></a>
-        <a id="login-btn" onclick="display_login()">Sign In</a>
-        <a id="logout-btn" onclick="display_logout()">Sign out</a>
-        <a id="cart-btn" onclick="display_cart()">Cart</a>
-        <a id="cart-btn2" onclick="display_cart2()">Cart</a> -->
     </div>
+    <!-- Navbar -->
+
+    <!-- Main Section  -->
     <h1 id="heading">Cart</h1>
     <div id="cart-box">
         <div>
@@ -37,7 +36,7 @@
         </div>
         
         <div>
-            <img src="./media/cart_page_img.png" alt="error">
+            <img src="../media/cart_page_img.png" alt="error">
         </div>
     </div>
     <div id="login-box">
@@ -49,10 +48,13 @@
         <button onclick="match()" class="login-btn">Sign In</button>
         <p>New User?  <button onclick="save()" class="login-btn" id="signup-btn">Sign Up</button></p>
     </div>
+    <!-- Main Section  -->
+
+    <!-- Footer  -->
     <div id="bottom">
         <div id="apps">
-            <img src="./media/app-store.png" alt="error">
-            <img src="./media/google-play.png" alt="error">
+            <img src="../media/app-store.png" alt="error">
+            <img src="../media/google-play.png" alt="error">
         </div>
         <div id="extra">
             <a href="./extras/terms.html">Terms of Use</a>
@@ -60,6 +62,7 @@
             <a>@The Chicken Lab. All Rights Reserved</a>
         </div>
     </div>
+    <!-- Footer  -->
 </body>
-<script src="./scripts/cart.js"></script>
+<script src="../scripts/cart.js"></script>
 </html>
