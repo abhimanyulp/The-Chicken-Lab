@@ -23,6 +23,10 @@ The Chicken Lab is a project dedicated to developing a web-based frontend platfo
 **Client:** HTML, CSS & JavaScript
 
 
+## Authors
+
+- [@abhimanyulp](https://github.com/abhimanyulp)
+
 
 ## Screenshots
 
@@ -31,11 +35,3 @@ The Chicken Lab is a project dedicated to developing a web-based frontend platfo
 <img width="1068" alt="Screenshot-3" src="https://github.com/abhimanyulp/The-Chicken-Lab/assets/119414340/c384eadf-2c6e-444b-b2cd-5523d3e5dbf3">
 <img width="1068" alt="Screenshot-4" src="https://github.com/abhimanyulp/The-Chicken-Lab/assets/119414340/adffb8d2-1b65-4747-9d03-063c6c09431f">
 <img width="1067" alt="Screenshot-5" src="https://github.com/abhimanyulp/The-Chicken-Lab/assets/119414340/850063ae-f570-4e96-a656-051022a70a12">
-
-
-
-## Authors
-
-- [@abhimanyulp](https://github.com/abhimanyulp)
-
-
